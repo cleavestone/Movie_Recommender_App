@@ -44,7 +44,7 @@ def main():
     
     # Sidebar for Branding and Navigation
     st.sidebar.title("🎬 Movie Magic")
-    st.sidebar.image(r"C:\Users\Hp\Desktop\Movie_recommender_system\moviees.jpg", caption="Your Movie Partner", use_container_width=True)
+    st.sidebar.image("moviees.jpg", caption="Your Movie Partner", use_container_width=True)
     st.sidebar.markdown("---")
     st.sidebar.markdown("**Powered by:**")
     st.sidebar.markdown("- Streamlit")
