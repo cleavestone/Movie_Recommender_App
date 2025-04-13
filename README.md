@@ -22,6 +22,8 @@ A semantic movie recommendation system powered by **LanceDB**, **Sentence Transf
 - **SentenceTransformers** – To generate sentence-level embeddings for movie descriptions
 - **pandas**, **numpy** – For data manipulation and preprocessing
 - **DVC + S3** – For data versioning and managing large files remotely
+- **GIT + GITHUB**
+- **Amazon S3** for cloud Storage
 
 ## 🏗️ Project Structure
 ```
@@ -47,4 +49,17 @@ Movie_Recommender_App/
     │
     └── utils/
         └── load_yaml_file.py        # Helper to load config
+
+## ⚙️ How to Run Locally
+
+### 1. Clone the repo:
+
+```bash
+git clone https://github.com/yourusername/Movie_Recommender_App.git
+cd Movie_Recommender_App
+
+```bash
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+pip install -r requirements.txt
 
