@@ -1,0 +1,8 @@
+pandas
+numpy
+sentence_transformers
+tqdm
+boto3
+lancedb
+streamlit
+dvc
