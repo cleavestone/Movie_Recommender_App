@@ -16,11 +16,6 @@ def load_model():
 def load_database():
     return lancedb.connect(uri).open_table("movies")
 
-table = load_database()
-
-# Display schema
-st.subheader("📋 LanceDB Table Schema")
-st.write(table.schema)
 
 
 def retriever(query, table, model, k=5):
