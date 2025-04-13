@@ -24,7 +24,7 @@ A semantic movie recommendation system powered by **LanceDB**, **Sentence Transf
 - **DVC + S3** – For data versioning and managing large files remotely
 
 ## 🏗️ Project Structure
-
+```
 Movie_Recommender_App/
 │
 ├── App.py                        # Main Streamlit app
