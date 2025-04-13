@@ -25,6 +25,8 @@ A semantic movie recommendation system powered by **LanceDB**, **Sentence Transf
 - **GIT + GITHUB**
 - **Amazon S3** for cloud Storage
 
+---
+
 ## 🏗️ Project Structure
 ```
 Movie_Recommender_App/
@@ -49,6 +51,7 @@ Movie_Recommender_App/
     │
     └── utils/
         └── load_yaml_file.py        # Helper to load config
+---
 
 ## ⚙️ How to Run Locally
 
@@ -58,8 +61,12 @@ Movie_Recommender_App/
 git clone https://github.com/yourusername/Movie_Recommender_App.git
 cd Movie_Recommender_App
 
+---
+
 ```bash
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
+
+---
 
