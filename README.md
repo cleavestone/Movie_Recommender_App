@@ -63,12 +63,19 @@ git clone https://github.com/yourusername/Movie_Recommender_App.git
 cd Movie_Recommender_App
 ```
 
----
+## Creat Virtual Environment and install requirements.txt
 
 ```bash
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
 ```
----
+## Pull data with DVC:
+```
+dvc pull
+```
+## Run the app:
+```
+streamlit run app/app.py
+```
 
