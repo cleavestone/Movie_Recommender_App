@@ -61,6 +61,7 @@ Movie_Recommender_App/
 ```bash
 git clone https://github.com/yourusername/Movie_Recommender_App.git
 cd Movie_Recommender_App
+```
 
 ---
 
@@ -68,6 +69,6 @@ cd Movie_Recommender_App
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
-
+```
 ---
 
