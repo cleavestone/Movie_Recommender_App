@@ -51,6 +51,7 @@ Movie_Recommender_App/
     │
     └── utils/
         └── load_yaml_file.py        # Helper to load config
+```
 ---
 
 ## ⚙️ How to Run Locally
