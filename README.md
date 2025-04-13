@@ -79,3 +79,11 @@ dvc pull
 streamlit run app/app.py
 ```
 
+## 📦 DVC & S3 Integration
+
+This project uses **DVC** to version large files and stores them in **Amazon S3**. To enable this:
+
+- Set up your AWS credentials (either locally via `~/.aws/credentials` or using IAM roles).
+
+
+
