@@ -26,24 +26,25 @@ A semantic movie recommendation system powered by **LanceDB**, **Sentence Transf
 ## 🏗️ Project Structure
 ```
 Movie_Recommender_App/
-│
-├── App.py                        # Main Streamlit app
-├── config.yaml                   # Configuration for LanceDB URI
-├── requirements.txt              # Project dependencies
-├── moviees.jpg                   # Banner image for the app
+├── App.py                        # Streamlit main application
+├── config.yaml                   # Configuration file (e.g., LanceDB URI)
+├── moviees.jpg                   # Banner image
+├── requirements.txt              # List of dependencies
 │
 ├── Artifacts/
 │   └── embeddings/
-│       └── embeddings.csv        # Precomputed movie embeddings + metadata
+│       └── embeddings.csv        # Precomputed embeddings + metadata
 │
 └── src/
     ├── components/
-    │   └── create_lance_db.py    # Function to create and populate LanceDB
+    │   ├── create_lance_db.py        # Creates and populates LanceDB
+    │   ├── data_ingestion.py         # Loads data from S3
+    │   ├── data_preprocessing.py     # Cleans and preprocesses data
+    │   └── feature_engineering.py    # Generates sentence embeddings
     │
     ├── pipeline/
-    │   └── pipeline.py           # Retriever logic using LanceDB and Sentence Transformers
+    │   └── pipeline.py               # Main pipeline runner
     │
     └── utils/
-        └── load_yaml_file.py     # Helper to load config file
-
+        └── load_yaml_file.py        # Helper to load config
 
