@@ -1,10 +1,12 @@
 columns_to_drop: ['genres', 'original_title', 'overview', 'vote_count','vote_average','popularity']
 
-raw_data_path: 'C:/Users/Hp/Desktop/Movie_recommender_system/Artifacts/raw_data'
-preprocessed_data_path: 'C:/Users/Hp/Desktop/Movie_recommender_system/Artifacts/preprocessed_data'
-embeddings_folder: 'C:/Users/Hp/Desktop/Movie_recommender_system/Artifacts/embeddings'
+raw_data_path: 'Artifacts/raw_data'
+preprocessed_data_path: 'Artifacts/preprocessed_data'
+embeddings_folder: 'Artifacts/embeddings'
 
 # S3 bucket configuration
 bucket: 'beansbucket12'
 key: 'lancedb34/movies_metadata.csv'
-uri : 'C:/Users/Hp/Desktop/Movie_recommender_system/Artifacts/LanceDatabase'
+
+uri: 'Artifacts/LanceDatabase'
+
