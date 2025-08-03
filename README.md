@@ -4,8 +4,7 @@ A semantic movie recommendation system powered by **LanceDB**, **Sentence Transf
 
 ---
 ## App Demo
-
-<img src="recommender_app.gif" alt="App Demo" width="600"/>
+![App Demo](recommender_app.gif)
 
 --
 
@@ -89,6 +88,7 @@ streamlit run app/app.py
 This project uses **DVC** to version large files and stores them in **Amazon S3**. To enable this:
 
 - Set up your AWS credentials (either locally via `~/.aws/credentials` or using IAM roles).
+
 
 
 
